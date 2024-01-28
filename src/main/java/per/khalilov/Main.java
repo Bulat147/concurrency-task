@@ -60,5 +60,6 @@ public class Main {
             }
         } while (doneCount != tasksCount);
 
+        executorService.shutdown();
     }
 }
